@@ -2,19 +2,23 @@
 
 namespace App\Controllers;
 
-class Security
+class Auth
 {
 
 	public function login() {
-		echo "Security/login";
+		echo "Auth/login";
 	}
 
 	public function logout() {
-		echo "Security/logout";
+		echo "Auth/logout";
 	}
 
 	public function register() {
-		echo "Security/register";
+		echo "Auth/register";
+	}
+
+	public function forgotPwd() {
+		echo "Auth/forgotPwd";
 	}
 	
 }
